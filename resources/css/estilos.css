@@ -1,0 +1,131 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  color: #252033;
+}
+
+body{
+  font-family: Helvetica;
+  background-color: #E7E6EA;
+}
+
+
+
+.main{
+  margin-top: 20px;
+  background-color: #BBAEE0;
+  width: 30%;
+  border: 1px solid #CCC;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+label{
+  font-size: 13px;
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+
+}
+
+div{
+  margin-top: 10px;
+}
+input:focus{
+  outline: 0px;
+  border: 1px solid #1664C4;
+}
+
+
+h2{
+  margin: 2px 15px;
+  text-align: center;
+}
+
+
+.logo{
+  text-align: center;
+}
+.logo img{
+  width: 50%;
+}
+input{
+
+  border-radius:20px;
+  margin-top: 5px;
+  margin-bottom: 16px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #CCC;
+}
+
+input[type="radio"]{
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+  width: 6%;
+}
+
+input[type="checkbox"]{
+  width: 6%;
+  margin: 20px 0px  10px 0px;
+  padding: 0px;
+}
+
+input[type="submit"]{
+  background-color: #5B0EBB;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+input[type="submit"]:hover{
+  cursor: pointer;
+  background-color: #754CA7;
+}
+
+label a{
+  text-decoration: none;
+  color: #000;
+}
+
+label a:hover{
+  text-decoration: underline;
+
+}
+.selection label {
+  display: inline;
+}
+.main h2{
+  text-align: center;
+}
+
+
+body::-webkit-scrollbar{
+  width: 8px;
+  margin-right: 2px;
+  background: #E6E6E6;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #4D329A;
+  border-radius: 5px;
+}
+
+.admin input[type="checkbox"]{
+  float: left;
+  margin-top: 5px;
+}
+.admin p{
+  margin: 0px;
+  font-size: 12px;
+  float: left;
+  vertical-align: middle;
+  margin-left:4px;
+}
+
+.admin{
+  overflow: hidden;
+  clear: both;
+}

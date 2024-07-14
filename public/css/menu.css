@@ -1,0 +1,90 @@
+
+.imagen{
+  float: left;
+  margin-top: 5px;
+}
+
+.imagenes .images img{
+  width: 31%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  box-shadow: 2px 2px 5px #999;
+  float:left;
+}
+
+.images img{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px #999;
+}
+
+header nav .menu{
+  width: 60%;
+  float: left;
+  overflow: hidden;
+}
+header nav .menu > li{
+  list-style: none;
+  display: inline-block;
+}
+
+header nav .menu > li:hover{
+  color: #FFF;
+}
+
+header{
+  background:rgba(43, 15, 77, 1)
+  ;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+
+header nav .menu > li > a{
+  text-decoration: none;
+  color: #FFF;
+  display: block;
+  padding: 20px 20px;
+
+}
+
+header nav .menu > li > a[class="actual_link"]{
+  color: #E5C510;
+}
+
+
+header img{
+  width: 50px;
+  height: 50px;
+}
+
+
+.cerrar_sesion{
+  float:right;
+  width: 20%;
+}
+
+.cerrar_sesion button{
+  position: absolute;
+  right:20px;
+  margin-top: 0px;
+  margin-left:0px;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  background-color:  rgba(91, 14, 187, 1); 
+  color: #FFF;
+  font-weight: bold;
+}
+

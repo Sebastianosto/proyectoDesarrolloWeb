@@ -1,0 +1,188 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  color: #fbc71d;
+}
+
+button[type="submit"]:hover {
+  cursor: pointer;
+}
+
+body{
+  font-family: Helvetica;
+}
+.wrap .titulo{
+  margin-top: 0px;
+  padding: 10px;
+  background-color: rgba(59, 23, 104, 1);
+  box-shadow: 0px 1px 1px rgb(114, 71, 174);
+  text-align: center;
+}
+
+.wrap .titulo h2{
+  color: #FFF;
+}
+
+.wrap .card{
+  margin-top: 20px;
+  background-color:rgb(81, 40, 132);
+  width: 30%;
+  border: 1px solid #fbc71d;
+  margin: 20px 10px 10px 10px;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  float:left;
+
+}
+
+
+.wrap .card a{
+  text-decoration: none;
+}
+
+
+
+.main{
+  margin-top: 20px;
+  background-color: rgb(81, 40, 132);
+  width: 30%;
+  border: 1px solid #CCC;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+label{
+  font-size: 13px;
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+
+}
+
+div{
+  margin-top: 10px;
+}
+input:focus{
+  outline: 0px;
+  border: 1px solid #1664C4;
+}
+
+
+h2{
+  margin: 2px 15px;
+  text-align: center;
+}
+
+
+.logo{
+  text-align: center;
+}
+.logo img{
+  width: 50%;
+}
+input{
+  color: #000;
+  background: #d4c0ed;
+  border-radius:20px;
+  margin-top: 5px;
+  margin-bottom: 16px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #CCC;
+}
+
+input[type="radio"]{
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+  width: 6%;
+}
+
+input[type="checkbox"]{
+  width: 6%;
+  margin: 20px 0px  10px 0px;
+  padding: 0px;
+}
+
+input[type="submit"]{
+  background-color: #5B0EBB;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+input[type="submit"]:hover{
+  cursor: pointer;
+  background-color: #754CA7;
+}
+
+label a{
+  text-decoration: none;
+}
+
+label a:hover{
+  text-decoration: underline;
+
+}
+
+.main h2{
+  text-align: center;
+}
+
+
+body::-webkit-scrollbar{
+  width: 8px;
+  margin-right: 2px;
+  background: #E6E6E6;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #4D329A;
+  border-radius: 5px;
+}
+
+.crear a button{
+  padding: 10px;
+  cursor:pointer;
+  background-color:  rgba(91, 14, 187, 1);
+  border: none;
+  color: #FFF;
+  font-weight: bold;
+
+}
+
+.crear a{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+label{
+  display: inline-block;
+  width: 80%;
+}
+
+.nationality label{
+  width: 100%;
+}
+
+.card form {
+  width: 15%;
+  margin-left: 10px;
+  float:right;
+}
+
+.card button {
+  padding: 5px 5px;
+  background: rgb(218, 30, 71);
+  border: 0px;
+}
+
+.main button {
+  margin-top: 10px;
+  padding: 5px 5px;
+  background-color: #1d0635;
+  border: 0px;
+  cursor: pointer;
+}
